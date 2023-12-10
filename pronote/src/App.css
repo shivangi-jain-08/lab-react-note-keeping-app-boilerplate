@@ -1,0 +1,42 @@
+* {
+  background-color: #3867d6;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+.input,
+.output {
+  padding: 10px;
+}
+
+.input-text,
+.output-text {
+  color: white;
+  width: 500px;
+  height: 500px;
+  resize: none;
+  padding: 10px;
+}
+
+.input-text{
+  border: 2px solid #464646;
+}
+
+.output-text {
+  background-color: #464646;
+  overflow-y: auto;
+  box-shadow: 3px 3px 8px rgb(0, 0, 0);
+  overflow-y: auto;
+  word-wrap: break-word;
+  white-space: normal;
+}
